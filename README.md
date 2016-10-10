@@ -5,7 +5,7 @@ You need to have docker and docker compose installed.
 If you don't have them, see [here](http://www.spiralout.eu/2015/12/docker-installation-in-linux-mint-and.html) first.
 ```
 $ git clone git@github.com:SpiralOutDotEu/docker-wordpress.git   
-$ docker-compose up   
+$ cd docker-wordpress && docker-compose up   
 ```
 You are ready!   
 Go to [0.0.0.0:8000](http://0.0.0.0:8000) and start building your WordPress site.   
